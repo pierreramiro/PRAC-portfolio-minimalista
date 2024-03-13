@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 380px;">
+        <thead>
+            <tr>
+                <th> Producto</th>
+                <th> Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> HolaBeats </td>
+                <td> Gratis</td> 
+            </tr>
+            <tr>
+                <td>Lapa</td>
+                <td>19.90</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>TOTAL</td>
+            <td>inf$</td>
+        </tfoot>
+    </table>
+    <!-- LISTA NO ORDENADA -->
+    <ul>
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+        <li>d</li>
+    </ul>
+    <!-- LISTA ORDENADA -->
+    <ol>
+        <li value="20">1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-alpha;" value="20">1</li>
+                <li style="list-style-type: lower-alpha;">2</li>
+                <li style="list-style-type: lower-alpha;">3</li>
+                <li style="list-style-type: lower-alpha;">4</li>
+            </ol>
+        </li>
+    </ol>
+    <!-- HEADER -->
+    <h1>Header</h1>
+    <h2>Header</h2>
+    <hr>
+    <p>Holaaa<br>kdkdkd</p>
+    <a href="http://www.google.com/" target="_blank">Vernir a google<br></a>
+    <img src="img/mor.png" width="400"/>
+    <form action="/formulario" method="get">
+        <label for="nombre">Nombre</label>
+        <input id="nombre" name="nombre" placeholder="Coloque nombre" type="text"/>
+        <br>
+        <label for="apellido">Apellido</label>
+        <input id="apellido" name="apellido" placeholder="Coloque apellido" type="text"/>
+        <br>
+        <label for="comentario">Coloque un comentario<br></label>
+        <textarea cols="10" rows="10" id="comentario" name="comentario" placeholder="Ingrese comentario"></textarea>
+        <br>
+        <button type="button"> Button </button>
+        <button type="reset"> Reset </button>
+        <button type="submit"> Enviar </button>
+    </form>
+</body>
+</html>

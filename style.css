@@ -1,0 +1,36 @@
+header{
+    margin: 4rem auto;
+}
+h1{
+    font-size: 1.8rem;
+}
+#intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.enlaces_horizontales a{
+    margin: auto 0.3rem;
+    color:black;
+}
+
+article{
+    margin: 4rem 4rem;
+}
+.article_text_image{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project_description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project_description p{
+    white-space: normal;
+}
+footer{
+    margin: 5rem auto;
+}
